@@ -8,7 +8,7 @@ description: Translates a document file (Word .docx, PDF including scans with se
 照译这个工具里验证过的流程：用脚本把文件拆成带位置的文字条目，你自己逐块翻译并核对，再用脚本按编号写回原文件。
 图片、表格、格式、公式、印章、签名都保持原样。原文件绝不覆盖。
 
-脚本目录：`${CLAUDE_PLUGIN_ROOT}/scripts`。依赖（缺什么装什么）：
+脚本目录：`${CLAUDE_PLUGIN_ROOT}/scripts`。在 Codex、Gemini CLI 等其他 agent 里这个变量没有值，下文的 `${CLAUDE_PLUGIN_ROOT}` 一律换成 `~/zhaoyi/plugins/doc-translate`（Windows 是 `%USERPROFILE%\zhaoyi\plugins\doc-translate`）。依赖（缺什么装什么）：
 `pip install python-docx lxml pypdfium2 pillow reportlab beautifulsoup4 pdfplumber pikepdf pypdf rapidocr_onnxruntime`
 （pdfplumber、pikepdf、pypdf 用于 PDF；rapidocr 只在 PDF 里有扫描页时需要。）
 
