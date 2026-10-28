@@ -44,10 +44,10 @@ pip install python-docx lxml pypdfium2 pillow reportlab beautifulsoup4 pdfplumbe
 - `rapidocr_onnxruntime` 只在 PDF 里有扫描页时需要。
 - 可选：装 LibreOffice，可以生成 Word 和 Excel 的对照图。
 
-### 其他 agent（Codex、Gemini CLI 等）/ Other agents
+### 其他 agent（Codex、Gemini CLI、DeepSeek Harness 等）/ Other agents
 
-照译的技能符合 [Agent Skills](https://agentskills.io) 标准，Codex 和 Gemini CLI 都会读取 `~/.agents/skills/` 文件夹。
-The skills follow the Agent Skills standard; Codex and Gemini CLI both read `~/.agents/skills/`.
+照译的技能符合 [Agent Skills](https://agentskills.io) 标准，Codex、Gemini CLI 和 DeepSeek Harness（dsh）都会读取 `~/.agents/skills/` 文件夹。
+The skills follow the Agent Skills standard; Codex, Gemini CLI and DeepSeek Harness (dsh) all read `~/.agents/skills/`.
 
 **Windows（PowerShell）**
 ```
@@ -64,6 +64,7 @@ mkdir -p ~/.agents/skills && cp -r ~/zhaoyi/plugins/doc-translate/skills/* ~/.ag
 
 - 仓库要放在用户目录下的 `zhaoyi` 文件夹里，技能会从这里找脚本。
 - Gemini CLI 装完后在会话里运行 `/skills reload`。
+- DeepSeek Harness 装完后重启 dsh，技能会出现在命令面板里。
 - 其他支持 Agent Skills 的工具，把 `skills` 里的三个文件夹复制到它的技能目录即可。
 - Python 依赖和上面一样。
 
