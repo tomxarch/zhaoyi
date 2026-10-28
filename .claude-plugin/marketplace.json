@@ -1,0 +1,16 @@
+{
+  "name": "zhaoyi",
+  "owner": {
+    "name": "tom"
+  },
+  "plugins": [
+    {
+      "name": "doc-translate",
+      "source": "./plugins/doc-translate",
+      "description": "Translate documents while keeping their layout; learn from feedback; step back to find root causes."
+    }
+  ],
+  "metadata": {
+    "description": "照译 ZhaoYi: layout-preserving document translation for Claude"
+  }
+}
