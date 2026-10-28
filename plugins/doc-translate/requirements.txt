@@ -1,0 +1,12 @@
+# 照译 doc-translate 依赖 / dependencies (Python 3.10+)
+python-docx
+lxml
+pypdfium2
+pillow
+reportlab
+beautifulsoup4
+pdfplumber
+pikepdf
+pypdf
+# 只在 PDF 里有扫描页时需要 / only needed for scanned PDF pages
+rapidocr_onnxruntime

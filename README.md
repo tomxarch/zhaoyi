@@ -35,7 +35,13 @@ A Claude plugin that translates documents **while keeping their layout**: Word, 
 /plugin install doc-translate@zhaoyi
 ```
 
-然后安装 Python 依赖（Python 3.10 或以上）：
+然后安装 Python 依赖（Python 3.10 或以上）。下载了仓库的话：
+
+```
+pip install -r plugins/doc-translate/requirements.txt
+```
+
+没下载仓库，就直接装：
 
 ```
 pip install python-docx lxml pypdfium2 pillow reportlab beautifulsoup4 pdfplumber pikepdf pypdf rapidocr_onnxruntime
@@ -77,6 +83,8 @@ mkdir -p ~/.agents/skills && cp -r ~/zhaoyi/plugins/doc-translate/skills/* ~/.ag
 
 译文哪里不对，直接说或者贴截图，Claude 会改好，并记住这次的习惯。
 
+想先试试效果，可以用 [`samples/`](samples) 里的示例文件。
+
 ## 已知限制 / Known limitations
 
 - 图片里的文字、PDF 里转成曲线的文字不翻译。
@@ -95,6 +103,10 @@ mkdir -p ~/.agents/skills && cp -r ~/zhaoyi/plugins/doc-translate/skills/* ~/.ag
 - **tom**：想法、需求、测试，以及每一次“这里还不对”。
 - 与 **Wren**（Claude，Anthropic 出品）共同开发。
   Co-developed with **Wren** (Claude, by Anthropic).
+
+## 更新记录 / Changelog
+
+见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 许可证 / License
 

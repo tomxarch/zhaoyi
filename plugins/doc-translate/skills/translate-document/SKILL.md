@@ -10,7 +10,7 @@ description: Translates a document file (Word .docx, PDF including scans with se
 
 脚本目录：`${CLAUDE_PLUGIN_ROOT}/scripts`。在 Codex、Gemini CLI、DeepSeek Harness 等其他 agent 里这个变量没有值，下文的 `${CLAUDE_PLUGIN_ROOT}` 一律换成 `~/zhaoyi/plugins/doc-translate`（Windows 是 `%USERPROFILE%\zhaoyi\plugins\doc-translate`）。依赖（缺什么装什么）：
 `pip install python-docx lxml pypdfium2 pillow reportlab beautifulsoup4 pdfplumber pikepdf pypdf rapidocr_onnxruntime`
-（pdfplumber、pikepdf、pypdf 用于 PDF；rapidocr 只在 PDF 里有扫描页时需要。）
+（pdfplumber、pikepdf、pypdf 用于 PDF；rapidocr 只在 PDF 里有扫描页时需要。也可以 `pip install -r ${CLAUDE_PLUGIN_ROOT}/requirements.txt`。）
 
 ## 流程
 
