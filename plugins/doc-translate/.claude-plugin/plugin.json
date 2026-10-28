@@ -1,6 +1,6 @@
 {
   "name": "doc-translate",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Translate Word, PDF (incl. scans with seals and signatures), Excel, HTML, ePub, Markdown, JSON and TXT files while keeping the layout; learn from feedback; step back to find root causes when problems recur.",
   "author": {"name": "tom"},
   "keywords": ["translation", "docx", "pdf", "ocr", "layout", "localization"]
