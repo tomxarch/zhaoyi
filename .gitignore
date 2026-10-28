@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.segments.json
+*.translations.json
+*_译文.*
+*_双语.*
+.DS_Store
+Thumbs.db
