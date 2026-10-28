@@ -1,0 +1,42 @@
+fr,en,zh
+disjoncteur,circuit breaker,断路器
+disjoncteurs,circuit breakers,断路器
+sectionneur,disconnector,隔离开关
+sectionneur de terre,earthing switch,接地开关
+interrupteur-sectionneur,switch-disconnector,负荷隔离开关
+cellule,switchgear panel,开关柜
+cellules,switchgear panels,开关柜
+cellule arrivée,incoming feeder panel,进线柜
+cellule départ,outgoing feeder panel,出线柜
+appareillage,switchgear,开关设备
+appareillage sous enveloppe métallique,metal-enclosed switchgear,金属封闭开关设备
+jeu de barres,busbar,母线
+transformateur de courant,current transformer,电流互感器
+transformateur de tension,voltage transformer,电压互感器
+tension assignée,rated voltage,额定电压
+courant assigné,rated current,额定电流
+fréquence assignée,rated frequency,额定频率
+tension de service,service voltage,运行电压
+tenue à fréquence industrielle,power-frequency withstand voltage,工频耐受电压
+tension de tenue aux chocs de foudre,lightning impulse withstand voltage,雷电冲击耐受电压
+tenue aux chocs,impulse withstand voltage,冲击耐受电压
+courant de courte durée admissible,short-time withstand current,短时耐受电流
+courant de crête admissible,peak withstand current,峰值耐受电流
+pouvoir de coupure,breaking capacity,开断能力
+pouvoir de fermeture,making capacity,关合能力
+tenue à l'arc interne,internal arc withstand,内部燃弧耐受
+arc interne,internal arc,内部燃弧
+degré de protection,degree of protection,防护等级
+mise à la terre,earthing,接地
+parafoudre,surge arrester,避雷器
+relais de protection,protection relay,保护继电器
+fusible,fuse,熔断器
+mécanisme de commande,operating mechanism,操动机构
+bobine de déclenchement,trip coil,分闸线圈
+bobine d'enclenchement,closing coil,合闸线圈
+contacts auxiliaires,auxiliary contacts,辅助触点
+séquence de manœuvres,operating sequence,操作顺序
+endurance mécanique,mechanical endurance,机械寿命
+résistance de chauffage,anti-condensation heater,加热器
+HTA,MV,中压
+BT,LV,低压
